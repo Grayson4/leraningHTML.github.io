@@ -23,8 +23,35 @@
     <title>index.html with various Flex-box</title>
 
   <style>
-    div {border: thin line black;}
-  </style>
+        div {border: thin line black;}
+        * {box-sizing: border-box;}
+        .header {
+            border: 1px solid red;
+            padding: 15 px;
+        }
+        .menu {
+            width: 25%;
+            float: left;
+            padding: 15px;
+            border: 1px solid red;
+        }
+        .main {
+            float: left;
+            width:50%;
+            padding: 15px;
+            border: 1px solid red;
+        }
+        .aside {
+            float: left;
+            width: 25%;
+            padding: 15 px;
+            border: 1px solid red;
+        }
+        .footer {
+            padding: 15px;
+            border: 1px solid red;
+        }
+    </style>
 
    <!-- Warning about JavaScript, Cybersecurity Topic -->
    <noscript>RUnning Javascript is not necessary in the HTML Page ... FYI: your feature to exacute scripts is turned off</noscript>
